@@ -226,3 +226,99 @@ p {
 }
 
 /*service-part design end */
+/*logo-part design start */
+.logo-part {
+    padding: 60px 13%;
+}
+
+/*logo-part design end */
+/*team-part design start */
+.team-part {
+    padding: 80px 0;
+    background: #000000;
+}
+
+.team-header {
+    text-align: center;
+    color: white;
+}
+
+.team-header h2 {
+    font-size: 60px;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+
+.team-header .team-text {
+    font-size: 60px;
+    font-weight: 900;
+}
+
+.team-header p {
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.team-details {
+    padding: 40px 5% 0 5%;
+}
+
+.profile-img {
+    text-align: center;
+}
+
+.profile-img img {
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    border: 6px solid #ffffff;
+    text-align: center;
+}
+
+.profile-content {
+    text-align: center;
+    color: white;
+    padding: 20px 0 0 0;
+}
+
+.profile-content h4 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.profile-content h4 {
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.profile-content h5 {
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+}
+
+.social-icon ul li {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    line-height: 50px;
+}
+
+.social-icon ul li a i {
+    font-size: 22px;
+    color: #ffffff;
+}
+
+.paragraph {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding: 0 16%;
+    padding-top: 30px;
+    font-weight: 300;
+}
+
+/*team-part design end */
