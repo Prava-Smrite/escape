@@ -68,7 +68,7 @@ p {
 /* header-part design end */
 /*development-part design start */
 .development-part {
-    padding: 100px 0;
+    padding: 80px 0;
 }
 .develop-content {
     margin-left: 60px;
@@ -95,7 +95,7 @@ p {
 /*development-part design end */
 /*branding-part design start */
 .branding-part {
-    padding: 100px 0;
+    padding: 80px 0;
     background-color: #fafafa;
 }
 .branding-content {
@@ -116,8 +116,75 @@ p {
     font-weight: 300;
 }
 .branding-img img {
-    width: 240px;
+    width: 260px;
     margin-left: 65px;
     margin-top: 40px;
 }
 /*branding-part design end */
+/*service-part design start */
+.service-part {
+    padding: 80px 0;
+}
+    /* service-left design */
+.service-detail-1{
+    margin-left: 15px;
+    padding-bottom: 50px;
+}
+.icon-left{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-left: 40px;
+}
+.icon-left i{
+    font-size: 40px;
+}
+.service-text-left{
+    margin-left: 15px;
+}
+.service-text-left h4{
+    font-weight: 700;
+    font-size: 22px;
+    text-transform: capitalize;
+}
+.service-text-left p{
+    font-size: 18px;
+    font-weight: 300;
+    
+   
+}
+        /* service-right design */
+.icon-right{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-left: 25px;
+}
+.icon-right i{
+    font-size: 40px;
+}
+.service-text-right{
+    margin-left: -5px;
+}
+.service-text-right h4{
+    font-weight: 700;
+    font-size: 22px;
+    text-transform: capitalize;
+}
+.service-text-right p{
+    font-size: 18px;
+    font-weight: 300;
+    
+}
+.service-detail-3{
+    margin-left: 15px;
+}
+/*service-part design end */
