@@ -4,31 +4,120 @@
     padding: 0;
     outline: 0;
 }
-
 body {
     font-family: 'Lato', sans-serif;
 }
-
 a {
     text-decoration: none;
 }
-
 ul,
 ol {
     list-style: none;
 }
-
 img {
     cursor: pointer;
     border: 0;
 }
-
 p {
     line-height: 150%;
 }
-
 .clear {
     overflow: hidden;
 }
-
 /*basic startup end*/
+/* header-part design start */
+.header-part {
+    background-image: url(../img/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 20px 0 80px 0;
+    height: 100vh;
+}
+.menu ul li a {
+    color: #ffffff !important;
+    padding: 0 20px !important;
+    font-weight: 400;
+}
+.header-content {
+    text-align: center;
+    color: #ffffff;
+    padding: 120px 0 0 0;
+}
+.header-content h3 {
+    font-size: 32px;
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+.header-content h1 {
+    font-size: 65px;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding-bottom: 50px;
+}
+.btn-custom {
+    padding: 16px 50px;
+    color: #ffffff;
+    font-size: 23px;
+    font-weight: 400;
+    border: 2px solid #ffffff;
+}
+.btn-custom:hover {
+    color: #ffffff;
+}
+/* header-part design end */
+/*development-part design start */
+.development-part {
+    padding: 100px 0;
+}
+.develop-content {
+    margin-left: 60px;
+}
+.develop-content h2 {
+    font-size: 60px;
+    padding-bottom: 25px;
+}
+.develop-content .web-text {
+    font-weight: 300;
+}
+.develop-content .develop-text {
+    font-weight: 700;
+}
+.develop-content p {
+    font-size: 18px;
+    font-weight: 300;
+}
+.develop-img img {
+    width: 230px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+/*development-part design end */
+/*branding-part design start */
+.branding-part {
+    padding: 100px 0;
+    background-color: #fafafa;
+}
+.branding-content {
+    margin-left: 10px;
+}
+.branding-content h2 {
+    font-size: 60px;
+    padding-bottom: 25px;
+}
+.branding-content .identity-text {
+    font-weight: 300;
+}
+.branding-content .branding-text {
+    font-weight: 700;
+}
+.branding-content p {
+    font-size: 18px;
+    font-weight: 300;
+}
+.branding-img img {
+    width: 240px;
+    margin-left: 65px;
+    margin-top: 40px;
+}
+/*branding-part design end */
