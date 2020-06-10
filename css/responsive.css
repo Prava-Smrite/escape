@@ -148,6 +148,7 @@
         width: 185px;
         height: 185px;
         line-height: 185px;
+        margin-right: 60px;
     }
     .clients-text {
         height: 120px;
@@ -203,6 +204,7 @@
         border-radius: 50%;
         line-height: 185px;
         border: 7px solid #bd8901;
+        margin-right: -9%;
     }
     .clients-text-two .speech-2 {
         font-size: 14px;
@@ -214,9 +216,6 @@
     .client-part-two {
         padding-left: 3%;
         padding-bottom: 50px;
-    }
-    .client-img-two img {
-        margin-right: 6%;
     }
     .logo-part {
         padding: 20px 20% 0 20%;
@@ -247,6 +246,37 @@
     .paragraph {
         font-size: 14px;
         padding-top: 0px;
+    }
+    .footer-part {
+        text-align: center;
+        padding: 35px 0 15px 0;
+    }
+    .footer-content h2 {
+        font-size: 40px;
+        padding-bottom: 0px;
+    }
+    .footer-content .hello-text {
+        font-size: 40px;
+        padding-bottom: 0px;
+    }
+    .footer-content p {
+        padding-bottom: 30px;
+    }
+    .contact-row {
+        padding-top: 0px;
+    }
+    .row-three {
+        padding-bottom: 30px;
+    }
+    .btn-design {
+        width: 100%;
+    }
+    .hr-design {
+        padding-top: 20px;
+    }
+    .footer-text {
+        padding-top: 15px;
+        font-size: 13px;
     }
 }
 /* Small devices (landscape phones, 576px and up) */
@@ -382,6 +412,7 @@
         width: 200px;
         height: 200px;
         line-height: 200px;
+        margin-left: -9px;
     }
     .clients-text {
         height: 152px;
@@ -429,6 +460,7 @@
         border-radius: 50%;
         line-height: 200px;
         border: 7px solid #bd8901;
+        margin-right: -6%;
     }
     .clients-text-two {
         height: 152px;
@@ -448,9 +480,6 @@
     .client-part-two {
         padding-left: 5%;
         padding-bottom: 50px;
-    }
-    .client-img-two img {
-        margin-right: 6%;
     }
     .logo-part {
         padding: 20px 20%;
@@ -478,6 +507,33 @@
         font-size: 14px;
         padding: 0 9%;
         padding-top: 0px;
+    }
+    .footer-part {
+        text-align: center;
+        padding: 20px 0 20px 0;
+    }
+    .footer-content h2 {
+        font-size: 50px;
+        padding-bottom: 0px;
+    }
+    .footer-content .hello-text {
+        font-size: 50px;
+        padding-bottom: 0px;
+    }
+    .footer-content p {
+        padding-bottom: 30px;
+    }
+    .contact-row {
+        padding-top: 0px;
+    }
+    .row-three {
+        padding-bottom: 30px;
+    }
+    .btn-design {
+        width: 100%;
+    }
+    .hr-design {
+        padding-top: 30px;
     }
 }
 /* Medium devices (tablets, 768px and up) */
@@ -580,18 +636,19 @@
         font-size: 17px;
     }
     .client-detail {
-        padding: 50px 0 0 0;
+        padding: 10px 0 0 0;
     }
     .clients-text {
         height: 178px;
         width: 577px;
-        background-color: #e3dfdf;
+        background-color: #f0ebeb;
         padding: 40px 72px;
         margin-top: 4%;
     }
     .client-img img {
         width: 180px;
         height: 180px;
+        margin-left: 30px;
     }
     .clients-text {
         height: 144px;
@@ -605,8 +662,12 @@
     .clients-text .person {
         font-size: 12px;
     }
+    .client-part-two {
+        padding-left: 13%;
+        padding-bottom: 10px;
+    }
     .client-detail-two {
-        padding: 50px 0 0 0;
+        padding: 10px 0 0 0;
     }
     .clients-text-two {
         height: 144px;
@@ -620,6 +681,7 @@
     .client-img-two img {
         width: 180px;
         height: 180px;
+        margin-left: -9%;
     }
     .clients-text-two .speech-2 {
         font-size: 16px;
@@ -630,11 +692,8 @@
     .client-detail-two {
         margin-left: -96px;
     }
-    .client-img-two img {
-        margin-left: 10%;
-    }
     .logo-part {
-        padding: 25px 14%;
+        padding: 50px 14%;
     }
     .team-part {
         padding: 50px 0;
@@ -671,6 +730,33 @@
         font-size: 14px;
         padding: 0 14%;
         padding-top: 30px;
+    }
+    .footer-part {
+        text-align: center;
+        padding: 30px 0 20px 0;
+    }
+    .footer-content h2 {
+        font-size: 50px;
+        padding-bottom: 0px;
+    }
+    .footer-content .hello-text {
+        font-size: 50px;
+        padding-bottom: 0px;
+    }
+    .footer-content p {
+        padding-bottom: 30px;
+    }
+    .contact-row {
+        padding-top: 0px;
+    }
+    .row-three {
+        padding-bottom: 30px;
+    }
+    .btn-design {
+        width: 100%;
+    }
+    .hr-design {
+        padding-top: 3px;
     }
 }
 /* Large devices (desktops, 992px and up) */
@@ -727,10 +813,13 @@
     .client-header p {
         font-size: 18px;
     }
+    .client-img img {
+        margin-left: 25px;
+    }
     .clients-text {
         height: 178px;
         width: 577px;
-        background-color: #e3dfdf;
+        background-color: #f0ebeb;
         padding: 40px 72px;
         margin-top: 4%;
     }
@@ -742,15 +831,16 @@
     }
     .client-part-two {
         padding-bottom: 20px;
+        padding-left: 16%;
     }
     .clients-text-two {
         height: 178px;
         width: 575px;
-        background-color: #e3dfdf;
+        background-color: #f0ebeb;
         padding: 40px 47px;
         margin-top: 4%;
     }
-    .clients-text-two:after {
+    .clients-text-two::after {
         left: 93%;
     }
     .clients-text-two .speech-2 {
@@ -760,16 +850,25 @@
         font-size: 15px;
     }
     .client-detail-two {
-        margin-left: -96px;
+        margin-left: -133px;
     }
     .client-img-two img {
-        margin-left: 10%;
+        margin-left: 0%;
     }
     .icon-right {
         margin-left: 13px;
     }
     .logo-part {
         padding: 60px 15%;
+    }
+    .footer-part {
+        padding-top: 40px;
+    }
+    .footer-content ul li {
+        font-size: 14px;
+    }
+    .footer-content ul li i {
+        font-size: 18px;
     }
 }
 /* Extra large devices (large desktops, 1200px and up) */

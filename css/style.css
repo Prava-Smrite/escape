@@ -4,33 +4,26 @@
     padding: 0;
     outline: 0;
 }
-
 body {
     font-family: 'Lato', sans-serif;
 }
-
 a {
     text-decoration: none;
 }
-
 ul,
 ol {
     list-style: none;
 }
-
 img {
     cursor: pointer;
     border: 0;
 }
-
 p {
     line-height: 150%;
 }
-
 .clear {
     overflow: hidden;
 }
-
 /*basic startup end*/
 /* header-part design start */
 .header-part {
@@ -41,32 +34,27 @@ p {
     padding: 20px 0 80px 0;
     height: 100vh;
 }
-
 .menu ul li a {
     color: #ffffff !important;
     padding: 0 20px !important;
     font-weight: 400;
 }
-
 .header-content {
     text-align: center;
     color: #ffffff;
     padding: 120px 0 0 0;
 }
-
 .header-content h3 {
     font-size: 32px;
     font-weight: 300;
     padding-bottom: 20px;
 }
-
 .header-content h1 {
     font-size: 65px;
     font-weight: 900;
     text-transform: uppercase;
     padding-bottom: 50px;
 }
-
 .btn-custom {
     padding: 16px 50px;
     color: #ffffff;
@@ -74,92 +62,74 @@ p {
     font-weight: 400;
     border: 2px solid #ffffff;
 }
-
 .btn-custom:hover {
     color: #ffffff;
 }
-
 /* header-part design end */
 /*development-part design start */
 .development-part {
     padding: 80px 0;
 }
-
 .develop-content {
-    margin-left: 60px;
+    margin-left: 0px;
 }
-
 .develop-content h2 {
     font-size: 60px;
     padding-bottom: 25px;
 }
-
 .develop-content .web-text {
     font-weight: 300;
 }
-
 .develop-content .develop-text {
     font-weight: 700;
 }
-
 .develop-content p {
     font-size: 18px;
     font-weight: 300;
 }
-
 .develop-img img {
     width: 230px;
     margin-top: 20px;
     margin-left: 30px;
 }
-
 /*development-part design end */
 /*branding-part design start */
 .branding-part {
     padding: 80px 0;
     background-color: #fafafa;
 }
-
 .branding-content {
-    margin-left: 10px;
+    margin-left: 0px;
 }
-
 .branding-content h2 {
     font-size: 60px;
     padding-bottom: 25px;
 }
-
 .branding-content .identity-text {
     font-weight: 300;
 }
-
 .branding-content .branding-text {
     font-weight: 700;
 }
-
 .branding-content p {
     font-size: 18px;
     font-weight: 300;
 }
-
 .branding-img img {
     width: 260px;
     margin-left: 65px;
     margin-top: 40px;
 }
-
 /*branding-part design end */
 /*service-part design start */
 .service-part {
     padding: 80px 0;
 }
-
 /* service-left design */
 .service-detail-1 {
-    margin-left: 15px;
+    margin-left: 0px;
     padding-bottom: 50px;
 }
-
 .icon-left {
     width: 80px;
     height: 80px;
@@ -170,26 +140,21 @@ p {
     padding: 20px 0;
     margin-left: 40px;
 }
-
 .icon-left i {
     font-size: 40px;
 }
-
 .service-text-left {
     margin-left: 15px;
 }
-
 .service-text-left h4 {
     font-weight: 700;
     font-size: 22px;
     text-transform: capitalize;
 }
-
 .service-text-left p {
     font-size: 18px;
     font-weight: 300;
 }
-
 /* service-right design */
 .icon-right {
     width: 80px;
@@ -201,70 +166,60 @@ p {
     padding: 20px 0;
     margin-left: 25px;
 }
-
 .icon-right i {
     font-size: 40px;
 }
-
 .service-text-right {
-    margin-left: -5px;
+    margin-left: 0px;
 }
-
 .service-text-right h4 {
     font-weight: 700;
     font-size: 22px;
     text-transform: capitalize;
 }
-
 .service-text-right p {
     font-size: 18px;
     font-weight: 300;
 }
-
 .service-detail-3 {
-    margin-left: 15px;
+    margin-left: 0;
 }
-
 /*service-part design end */
 /*client-part-one design start */
 .client-part {
     padding: 80px 0 30px 0;
+    padding-left: 9%;
+    padding-right: 9%;
 }
-
 .client-header {
     text-align: center;
     color: #000000;
 }
-
 .client-header h2 {
     font-size: 60px;
     font-weight: 300;
     text-transform: capitalize;
 }
-
 .client-header .client-text {
     font-size: 60px;
     font-weight: 900;
 }
-
 .client-header p {
     font-size: 20px;
     font-weight: 400;
     color: #8c8c8c;
 }
-
 .client-detail {
     padding: 50px 3% 0 3%;
 }
-
 .client-img img {
     width: 220px;
     height: 220px;
     border-radius: 50%;
     line-height: 220px;
     border: 7px solid #bd8901;
+    margin-left: 55px;
 }
-
 .clients-text {
     height: 170px;
     width: 635px;
@@ -272,7 +227,6 @@ p {
     padding: 30px 47px;
     margin-top: 4%;
 }
-
 .clients-text:before {
     content: '';
     position: absolute;
@@ -284,35 +238,31 @@ p {
     top: 48%;
     left: 0%;
 }
-
 .clients-text .speech {
     font-size: 24px;
     color: #8c8c8c;
     line-height: 138%;
 }
-
 .clients-text .person {
     font-size: 17px;
     font-weight: 300;
     padding-right: 27%;
     color: #3c5ca7;
 }
-
 /*client-part-one design end */
 /*client-part-two design start */
 .client-part-two {
     padding-left: 13%;
-    padding-bottom: 50p;
+    padding-bottom: 50px;
 }
-
 .client-img-two img {
     width: 220px;
     height: 220px;
     border-radius: 50%;
     line-height: 220px;
     border: 7px solid #bd8901;
+    margin-left: -55px;
 }
-
 .clients-text-two {
     height: 170px;
     width: 635px;
@@ -320,7 +270,6 @@ p {
     padding: 30px 47px;
     margin-top: 4%;
 }
-
 .clients-text-two:after {
     content: '';
     position: absolute;
@@ -332,62 +281,51 @@ p {
     top: 50%;
     left: 85%;
 }
-
 .clients-text-two .speech-2 {
     font-size: 24px;
     color: #8c8c8c;
     line-height: 138%;
 }
-
 .clients-text-two .person-2 {
     font-size: 17px;
     font-weight: 300;
     padding-right: 27%;
     color: #3c5ca7;
 }
-
 /*client-part-two design end */
 /*logo-part design start */
 .logo-part {
     padding: 60px 13%;
 }
-
 /*logo-part design end */
 /*team-part design start */
 .team-part {
     padding: 80px 0;
     background: #000000;
 }
-
 .team-header {
     text-align: center;
     color: white;
 }
-
 .team-header h2 {
     font-size: 60px;
     font-weight: 300;
     text-transform: capitalize;
 }
-
 .team-header .team-text {
     font-size: 60px;
     font-weight: 900;
 }
-
 .team-header p {
     font-size: 22px;
     font-weight: 300;
 }
-
 .team-details {
-    padding: 40px 5% 0 5%;
+    padding: 40px 0% 0 0%;
 }
-
 .profile-img {
     text-align: center;
 }
-
 .profile-img img {
     width: 230px;
     height: 230px;
@@ -395,31 +333,26 @@ p {
     border: 6px solid #ffffff;
     text-align: center;
 }
-
 .profile-content {
     text-align: center;
     color: white;
     padding: 20px 0 0 0;
 }
-
 .profile-content h4 {
     font-size: 18px;
     font-weight: 600;
 }
-
 .profile-content h4 {
     font-size: 18px;
     font-weight: 600;
     text-transform: capitalize;
 }
-
 .profile-content h5 {
     font-size: 16px;
     font-weight: 400;
     text-transform: capitalize;
     padding-bottom: 10px;
 }
-
 .social-icon ul li {
     width: 50px;
     height: 50px;
@@ -427,12 +360,10 @@ p {
     border-radius: 50%;
     line-height: 50px;
 }
-
 .social-icon ul li a i {
     font-size: 22px;
     color: #ffffff;
 }
-
 .paragraph {
     text-align: center;
     color: white;
@@ -441,5 +372,68 @@ p {
     padding-top: 30px;
     font-weight: 300;
 }
-
 /*team-part design end */
+/*footer-part design start */
+.footer-part {
+    background: #7690c5;
+    padding: 80px 0 20px 0;
+    color: #ffffff;
+}
+.footer-content h2 {
+    font-size: 60px;
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+.footer-content .hello-text {
+    font-size: 60px;
+    font-weight: 800;
+}
+.footer-content p {
+    font-size: 18px;
+    font-weight: 300;
+}
+.contact-row {
+    padding-top: 40px;
+}
+.footer-content ul li {
+    font-size: 18px;
+}
+.footer-content ul li i {
+    font-size: 22px;
+}
+.form-part input {
+    padding: 10px;
+    font-weight: 300;
+    height: 50px;
+}
+.form-part textarea {
+    padding: 10px;
+    font-weight: 300;
+    width: 100%;
+    height: 315px;
+    border: none;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+}
+.btn-design {
+    color: #2c7ec6;
+    background-color: #ffffff;
+    border-color: #007bff;
+}
+.btn-design:hover {
+    color: #ffffff;
+    background-color: #7690c5;
+    border-color: #ffffff;
+}
+.hr-design {
+    border: none;
+    border-bottom: 1px solid #dddddd;
+    padding-top: 50px;
+}
+.footer-text {
+    text-align: center;
+    padding-top: 20px;
+    background: #7690c5;
+    color: #ffffff;
+}
+/*footer-part design end */
