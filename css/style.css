@@ -226,6 +226,127 @@ p {
 }
 
 /*service-part design end */
+/*client-part-one design start */
+.client-part {
+    padding: 80px 0 30px 0;
+}
+
+.client-header {
+    text-align: center;
+    color: #000000;
+}
+
+.client-header h2 {
+    font-size: 60px;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+
+.client-header .client-text {
+    font-size: 60px;
+    font-weight: 900;
+}
+
+.client-header p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #8c8c8c;
+}
+
+.client-detail {
+    padding: 50px 3% 0 3%;
+}
+
+.client-img img {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    line-height: 220px;
+    border: 7px solid #bd8901;
+}
+
+.clients-text {
+    height: 170px;
+    width: 635px;
+    background-color: #f0ebeb;
+    padding: 30px 47px;
+    margin-top: 4%;
+}
+
+.clients-text:before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-right: 20px solid #f0ebeb;
+    border-bottom: 10px solid transparent;
+    top: 48%;
+    left: 0%;
+}
+
+.clients-text .speech {
+    font-size: 24px;
+    color: #8c8c8c;
+    line-height: 138%;
+}
+
+.clients-text .person {
+    font-size: 17px;
+    font-weight: 300;
+    padding-right: 27%;
+    color: #3c5ca7;
+}
+
+/*client-part-one design end */
+/*client-part-two design start */
+.client-part-two {
+    padding-left: 13%;
+    padding-bottom: 50p;
+}
+
+.client-img-two img {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    line-height: 220px;
+    border: 7px solid #bd8901;
+}
+
+.clients-text-two {
+    height: 170px;
+    width: 635px;
+    background-color: #f0ebeb;
+    padding: 30px 47px;
+    margin-top: 4%;
+}
+
+.clients-text-two:after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-left: 20px solid #f0ebeb;
+    border-bottom: 10px solid transparent;
+    top: 50%;
+    left: 85%;
+}
+
+.clients-text-two .speech-2 {
+    font-size: 24px;
+    color: #8c8c8c;
+    line-height: 138%;
+}
+
+.clients-text-two .person-2 {
+    font-size: 17px;
+    font-weight: 300;
+    padding-right: 27%;
+    color: #3c5ca7;
+}
+
+/*client-part-two design end */
 /*logo-part design start */
 .logo-part {
     padding: 60px 13%;

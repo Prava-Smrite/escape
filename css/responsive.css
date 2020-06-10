@@ -4,11 +4,11 @@
         padding: 37px 0 0 0;
     }
     .header-content h3 {
-        font-size: 18px;
+        font-size: 15px;
         padding-bottom: 5px;
     }
     .header-content h1 {
-        font-size: 35px;
+        font-size: 28px;
         font-weight: 900;
         text-transform: uppercase;
         padding-bottom: 50px;
@@ -28,7 +28,7 @@
         text-align: center;
     }
     .develop-content h2 {
-        font-size: 22px;
+        font-size: 25px;
         padding-bottom: 10px;
     }
     .develop-content p {
@@ -53,7 +53,7 @@
         text-align: center;
     }
     .branding-content h2 {
-        font-size: 22px;
+        font-size: 25px;
         padding-bottom: 10px;
     }
     .branding-content p {
@@ -125,6 +125,98 @@
     }
     .service-part {
         padding: 40px 0;
+    }
+    .client-part {
+        padding: 10px 0 30px 0;
+    }
+    .client-header h2 {
+        font-size: 30px;
+    }
+    .client-header .client-text {
+        font-size: 30px;
+    }
+    .client-header p {
+        font-size: 17px;
+    }
+    .client-detail {
+        padding: 30px 3% 0 3%;
+    }
+    .client-img {
+        text-align: center;
+    }
+    .client-img img {
+        width: 185px;
+        height: 185px;
+        line-height: 185px;
+    }
+    .clients-text {
+        height: 120px;
+        width: 420px;
+        background-color: #e3dfdf;
+        padding: 25px 47px;
+        margin-top: 4%;
+        text-align: center;
+    }
+    .clients-text::before {
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-right: 10px solid transparent;
+        border-bottom: 20px solid #e3dfdf;
+        border-left: 10px solid transparent;
+        top: -4%;
+        left: 48%;
+    }
+    .clients-text .speech {
+        font-size: 14px;
+        text-align: center;
+    }
+    .clients-text .person {
+        font-size: 12px;
+    }
+    .clients-text-two {
+        height: 120px;
+        width: 420px;
+        background-color: #e3dfdf;
+        padding: 32px 47px;
+        margin-top: -2%;
+        margin-bottom: 4%;
+    }
+    .clients-text-two::after {
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-right: 10px solid transparent;
+        border-top: 20px solid #e3dfdf;
+        border-left: 10px solid transparent;
+        top: 82%;
+        left: 46%;
+    }
+    .client-img-two {
+        text-align: center;
+    }
+    .client-img-two img {
+        width: 185px;
+        height: 185px;
+        border-radius: 50%;
+        line-height: 185px;
+        border: 7px solid #bd8901;
+    }
+    .clients-text-two .speech-2 {
+        font-size: 14px;
+        text-align: center;
+    }
+    .clients-text-two .person-2 {
+        font-size: 12px;
+    }
+    .client-part-two {
+        padding-left: 3%;
+        padding-bottom: 50px;
+    }
+    .client-img-two img {
+        margin-right: 6%;
     }
     .logo-part {
         padding: 20px 20% 0 20%;
@@ -271,6 +363,95 @@
     .service-detail-4 {
         text-align: center;
     }
+    .client-part {
+        padding: 0px 0 30px 0;
+    }
+    .client-header h2 {
+        font-size: 42px;
+    }
+    .client-header .client-text {
+        font-size: 42px;
+    }
+    .client-header p {
+        font-size: 19px;
+    }
+    .client-img {
+        text-align: center;
+    }
+    .client-img img {
+        width: 200px;
+        height: 200px;
+        line-height: 200px;
+    }
+    .clients-text {
+        height: 152px;
+        width: 483px;
+        background-color: #e3dfdf;
+        padding: 32px 47px;
+        margin-top: 4%;
+        text-align: center;
+    }
+    .clients-text::before {
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-right: 10px solid transparent;
+        border-bottom: 20px solid #e3dfdf;
+        border-left: 10px solid transparent;
+        top: -4%;
+        left: 48%;
+    }
+    .clients-text .speech {
+        font-size: 17px;
+        text-align: center;
+    }
+    .clients-text .person {
+        font-size: 14px;
+    }
+    .clients-text-two::after {
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-right: 10px solid transparent;
+        border-top: 20px solid #e3dfdf;
+        border-left: 10px solid transparent;
+        top: 85%;
+        left: 46%;
+    }
+    .client-img-two {
+        text-align: center;
+    }
+    .client-img-two img {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        line-height: 200px;
+        border: 7px solid #bd8901;
+    }
+    .clients-text-two {
+        height: 152px;
+        width: 483px;
+        background-color: #e3dfdf;
+        padding: 32px 47px;
+        margin-top: -2%;
+        margin-bottom: 4%;
+    }
+    .clients-text-two .speech-2 {
+        font-size: 17px;
+        text-align: center;
+    }
+    .clients-text-two .person-2 {
+        font-size: 14px;
+    }
+    .client-part-two {
+        padding-left: 5%;
+        padding-bottom: 50px;
+    }
+    .client-img-two img {
+        margin-right: 6%;
+    }
     .logo-part {
         padding: 20px 20%;
     }
@@ -282,6 +463,10 @@
     }
     .team-header h2 {
         font-size: 45px;
+    }
+    .team-header .team-text {
+        font-size: 42px;
+        font-weight: 900;
     }
     .team-header p {
         font-size: 20px;
@@ -385,8 +570,71 @@
     .service-detail-1 {
         padding-bottom: 30px;
     }
+    .client-part {
+        padding: 20px 0 0 0;
+    }
+    .client-header h2 {
+        font-size: 50px;
+    }
+    .client-header p {
+        font-size: 17px;
+    }
+    .client-detail {
+        padding: 50px 0 0 0;
+    }
+    .clients-text {
+        height: 178px;
+        width: 577px;
+        background-color: #e3dfdf;
+        padding: 40px 72px;
+        margin-top: 4%;
+    }
+    .client-img img {
+        width: 180px;
+        height: 180px;
+    }
+    .clients-text {
+        height: 144px;
+        width: 446px;
+        padding: 30px 44px;
+        margin-top: 4%;
+    }
+    .clients-text .speech {
+        font-size: 16px;
+    }
+    .clients-text .person {
+        font-size: 12px;
+    }
+    .client-detail-two {
+        padding: 50px 0 0 0;
+    }
+    .clients-text-two {
+        height: 144px;
+        width: 446px;
+        padding: 30px 44px;
+        margin-top: 4%;
+    }
+    .clients-text-two::after {
+        left: 92%;
+    }
+    .client-img-two img {
+        width: 180px;
+        height: 180px;
+    }
+    .clients-text-two .speech-2 {
+        font-size: 16px;
+    }
+    .clients-text-two .person-2 {
+        font-size: 12px;
+    }
+    .client-detail-two {
+        margin-left: -96px;
+    }
+    .client-img-two img {
+        margin-left: 10%;
+    }
     .logo-part {
-        padding: 60px 14%;
+        padding: 25px 14%;
     }
     .team-part {
         padding: 50px 0;
@@ -469,6 +717,53 @@
     }
     .service-detail-4 p {
         font-size: 15px;
+    }
+    .client-part {
+        padding: 20px 0 30px 0;
+    }
+    .client-header h2 {
+        font-size: 58px;
+    }
+    .client-header p {
+        font-size: 18px;
+    }
+    .clients-text {
+        height: 178px;
+        width: 577px;
+        background-color: #e3dfdf;
+        padding: 40px 72px;
+        margin-top: 4%;
+    }
+    .clients-text .speech {
+        font-size: 19px;
+    }
+    .clients-text .person {
+        font-size: 15px;
+    }
+    .client-part-two {
+        padding-bottom: 20px;
+    }
+    .clients-text-two {
+        height: 178px;
+        width: 575px;
+        background-color: #e3dfdf;
+        padding: 40px 47px;
+        margin-top: 4%;
+    }
+    .clients-text-two:after {
+        left: 93%;
+    }
+    .clients-text-two .speech-2 {
+        font-size: 19px;
+    }
+    .clients-text-two .person-2 {
+        font-size: 15px;
+    }
+    .client-detail-two {
+        margin-left: -96px;
+    }
+    .client-img-two img {
+        margin-left: 10%;
     }
     .icon-right {
         margin-left: 13px;
